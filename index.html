@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Secret Planner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio id="music" src="./music/music.mp3" autoplay loop></audio>
+    <div id="canvas-container">
+        <canvas id="canvas"></canvas>
+        <div id="password-container">
+            <input type="password" id="password-input" placeholder="비밀번호를 입력하세요.">
+            <button id="password-button">확인</button>
+        </div>
+        <div id="button-container">
+            <button id="daily" class="button"><img src="images/b1.png"></button>
+            <button id="weekly" class="button"><img src="images/b2.png"></button>
+            <button id="monthly" class="button"><img src="images/b3.png"></button>
+        </div>
+    </div>
+    <div id="back-button-container">
+        <button id="back-button" class="button">Back</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

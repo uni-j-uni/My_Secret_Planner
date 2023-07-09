@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('images/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#canvas-container { position: relative; }
+#canvas {
+    width: 531px;
+    height: 750px;
+}
+#button-container {
+    position: absolute;
+    top: 70%;   
+    left: 41%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    width: 200px;
+}
+.button {
+    display: none;
+    width: 0px;
+    height: 0px;
+    border: none;
+    margin: 70px;
+}
+#back-button-container {
+    position: absolute;
+    top: -50px;
+    left: 430px;
+}
+#back-button { display: none; }
+#password-container {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
